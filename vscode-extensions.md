@@ -20,3 +20,5 @@
 - [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
 - [TailwindCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)

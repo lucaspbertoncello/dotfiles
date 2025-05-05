@@ -2,7 +2,7 @@
   "workbench.colorCustomizations": {
     "editor.foldBackground": "#00000000"
   },
-  "workbench.colorTheme": "Min Dark",
+  "workbench.colorTheme": "Dracula Pro",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
@@ -17,9 +17,9 @@
   "editor.fontLigatures": true,
   "editor.scrollbar.vertical": "hidden",
   "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [80, 120],
+  "editor.rulers": [120, 140],
   "editor.parameterHints.enabled": false,
-  "editor.semanticHighlighting.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.renderLineHeightlight": "gutter",
   "editor.bracketPairColorization.enabled": true,
@@ -81,12 +81,14 @@
   "editor.formatOnSave": true,
   "symbols.hidesExplorerArrows": true,
   "git.suggestSmartCommit": false,
-  "workbench.iconTheme": "symbols",
   "[css]": {
     "editor.suggest.insertMode": "replace"
   },
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase"
 }
