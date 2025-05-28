@@ -2,13 +2,10 @@
   "workbench.colorCustomizations": {
     "editor.foldBackground": "#00000000"
   },
-  "workbench.colorTheme": "Dracula Pro",
+  "workbench.colorTheme": "Dracula Pro (Van Helsing)",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
-
-  // Editor settings
-  "editor.wordWrap": "on",
   "editor.fontSize": 14,
   "editor.lineHeight": 24,
   "terminal.integrated.fontSize": 14,
@@ -17,7 +14,7 @@
   "editor.fontLigatures": true,
   "editor.scrollbar.vertical": "hidden",
   "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [120, 140],
+  "editor.rulers": [80, 120],
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -42,6 +39,7 @@
   // Extensions
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
+  "material-icon-theme.activeIconPack": "nest",
   "material-icon-theme.folders.associations": {
     "domain": "core",
     "infra": "app",
@@ -63,14 +61,6 @@
     "tsconfig.json": "tune",
     ".lintstagedrc.json": "tune"
   },
-  "polacode.transparentBackground": true,
-  "polacode.shadow": "none",
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": true,
-    "markdown": false
-  },
   "gitlens.defaultDateFormat": null,
   "gitlens.hovers.currentLine.over": "line",
   "liveServer.settings.donotShowInfoMsg": true,
@@ -84,11 +74,16 @@
   "[css]": {
     "editor.suggest.insertMode": "replace"
   },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "editor.minimap.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorBlinking": "phase"
+  "editor.cursorBlinking": "phase",
+  "less.format.preserveNewLines": false,
+  "workbench.editor.empty.hint": "hidden"
 }

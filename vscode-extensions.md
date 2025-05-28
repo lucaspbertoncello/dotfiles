@@ -2,11 +2,15 @@
 
 - [Dracula PRO](https://draculatheme.com/pro)
 - [Min theme](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.min-theme)
+- [Vesper ++](https://marketplace.visualstudio.com/items?itemName=Obstinate.vesper-pp)
+
+# File icon theme
+
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [Symbol Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols)
 
 # Extensions
 
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
@@ -22,3 +26,5 @@
 - [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+- [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)
