@@ -2,7 +2,7 @@
   "workbench.colorCustomizations": {
     "editor.foldBackground": "#00000000"
   },
-  "workbench.colorTheme": "Dracula Pro (Van Helsing)",
+  "workbench.colorTheme": "Dracula Pro",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
@@ -10,11 +10,11 @@
   "editor.lineHeight": 24,
   "terminal.integrated.fontSize": 14,
   "editor.tabSize": 2,
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": true,
   "editor.scrollbar.vertical": "hidden",
   "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [80, 120],
+  "editor.rulers": [120, 140],
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -37,6 +37,9 @@
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
   // Extensions
+  "code-runner.executorMap": {
+    "typescript": "ts-node"
+  },
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "material-icon-theme.activeIconPack": "nest",
@@ -54,12 +57,18 @@
     "adapters": "connection",
     "factories": "container",
     "globals": "global",
-    "ui": "views"
+    "ui": "views",
+    "features": "components"
   },
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
     "tsconfig.json": "tune",
     ".lintstagedrc.json": "tune"
+  },
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.controller.ts": "nest",
+    "*.service.ts": "nest"
   },
   "gitlens.defaultDateFormat": null,
   "gitlens.hovers.currentLine.over": "line",
@@ -81,9 +90,10 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "workbench.iconTheme": "material-icon-theme",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "phase",
   "less.format.preserveNewLines": false,
-  "workbench.editor.empty.hint": "hidden"
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false
 }
