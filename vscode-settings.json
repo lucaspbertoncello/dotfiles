@@ -2,15 +2,15 @@
   "workbench.colorCustomizations": {
     "editor.foldBackground": "#00000000"
   },
-  "workbench.colorTheme": "Dracula Pro",
+  "workbench.colorTheme": "Vesper ++",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
   "editor.fontSize": 14,
-  "editor.lineHeight": 24,
+  "editor.lineHeight": 22,
   "terminal.integrated.fontSize": 14,
   "editor.tabSize": 2,
-  "editor.fontFamily": "Cascadia Code",
+  "editor.fontFamily": "Source Code Pro",
   "editor.fontLigatures": true,
   "editor.scrollbar.vertical": "hidden",
   "editor.renderLineHighlight": "gutter",
@@ -75,7 +75,6 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "git.confirmSync": false,
   "editor.inlineSuggest.enabled": true,
-  "window.zoomLevel": 1,
   "security.workspace.trust.untrustedFiles": "open",
   "editor.formatOnSave": true,
   "symbols.hidesExplorerArrows": true,
@@ -95,5 +94,6 @@
   "less.format.preserveNewLines": false,
   "workbench.editor.empty.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 1
 }
