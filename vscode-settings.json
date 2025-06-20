@@ -2,13 +2,13 @@
   "workbench.colorCustomizations": {
     "editor.foldBackground": "#00000000"
   },
-  "workbench.colorTheme": "Vesper ++",
+  "workbench.colorTheme": "Dracula Pro",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.lineHeight": 22,
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 16,
   "editor.tabSize": 2,
   "editor.fontFamily": "Source Code Pro",
   "editor.fontLigatures": true,
