@@ -10,7 +10,7 @@ module.exports = {
     // default font size in pixels for all tabs
     fontSize: 16,
     // font family with optional fallbacks
-    fontFamily: "Cascadia Code",
+    fontFamily: "MonoLisa",
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
     // font weight for bold characters: 'normal' or 'bold'
@@ -41,7 +41,7 @@ module.exports = {
     // custom CSS to embed in the terminal window
     termCSS: "",
     // set custom startup directory (must be an absolute path)
-    workingDirectory: "C:\\Users\\Lucas\\Documents",
+    workingDirectory: "C:\\Programming",
     // if you're using a Linux setup which show native menus, set to false
     // default: `true` on Linux, `true` on Windows, ignored on macOS
     showHamburgerMenu: "",
