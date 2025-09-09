@@ -24,9 +24,9 @@ module.exports = {
     // terminal text color under BLOCK cursor
     cursorAccentColor: "#000",
     // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
-    cursorShape: "BLOCK",
+    cursorShape: "BEAM",
     // set to `true` (without backticks and without quotes) for blinking cursor
-    cursorBlink: false,
+    cursorBlink: true,
     // color of the text
     foregroundColor: "#fff",
     // terminal background color
@@ -92,8 +92,8 @@ module.exports = {
     //
     // Cygwin
     // - Example: `C:\\cygwin64\\bin\\bash.exe`
-    shell: "",
-    shellArgs: [],
+    shell: "C:\\Windows\\System32\\wsl.exe",
+    shellArgs: ["-d", "Ubuntu", "-e", "zsh"],
 
     // for environment variables
     env: {},
@@ -109,7 +109,7 @@ module.exports = {
     defaultSSHApp: true,
     // if `true` (without backticks and without quotes), on right click selected text will be copied or pasted if no
     // selection is present (`true` by default on Windows and disables the context menu feature)
-    quickEdit: false,
+    quickEdit: true,
     // choose either `'vertical'`, if you want the column mode when Option key is hold during selection (Default)
     // or `'force'`, if you want to force selection regardless of whether the terminal is in mouse events mode
     // (inside tmux or vim with mouse mode enabled for example).
@@ -136,7 +136,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyper-opacity"],
+  plugins: ["hyper-opacity", "hyper-search"],
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
