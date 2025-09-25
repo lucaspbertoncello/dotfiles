@@ -2,19 +2,18 @@
   "workbench.colorCustomizations": {
     "editor.foldBackground": "#00000000"
   },
-  "workbench.colorTheme": "Dracula Pro",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
   "editor.fontSize": 13,
-  "editor.lineHeight": 22,
+  "editor.lineHeight": 26,
   "terminal.integrated.fontSize": 16,
   "editor.tabSize": 2,
-  "editor.fontFamily": "MonoLisa",
+  "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": true,
   "editor.scrollbar.vertical": "hidden",
   "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [80, 120],
+  "editor.rulers": [100, 130],
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -31,6 +30,11 @@
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
+
+  // CodeSnap
+  "codesnap.roundedCorners": true,
+  "codesnap.showLineNumbers": false,
+  "codesnap.containerPadding": "1em",
 
   // Emmet
   "emmet.syntaxProfiles": { "javascript": "jsx" },
@@ -60,7 +64,8 @@
     "ui": "views",
     "features": "components",
     "http": "core",
-    "core": "class"
+    "core": "class",
+    "dto": "resource"
   },
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
@@ -97,5 +102,14 @@
   "workbench.editor.empty.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Dracula Pro",
+  "editor.wordWrap": "on",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
 }
