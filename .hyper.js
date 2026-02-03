@@ -4,7 +4,7 @@ module.exports = {
   config: {
     updateChannel: "stable",
     fontSize: 16,
-    fontFamily: "MonoLisa",
+    fontFamily: "Cascadia Code",
     fontWeight: "normal",
     fontWeightBold: "bold",
     lineHeight: 1,
@@ -59,6 +59,6 @@ module.exports = {
     preserveCWD: true,
   },
   plugins: ["hyper-opacity", "hyper-search"],
-  localPlugins: ["pro"],
+  localPlugins: ["van-helsing"],
   keymaps: {},
 };
