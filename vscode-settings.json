@@ -1,45 +1,99 @@
 {
+  // ─── Tema e Aparência Geral ──────────────────────────────────────────────────
+  "workbench.colorTheme": "Vesper",
   "workbench.colorCustomizations": {
-    "editor.foldBackground": "#00000000"
+    "editor.foldBackground": "#00000000",
   },
+  "window.zoomLevel": 0.8,
+  "window.menuBarVisibility": "compact",
+
+  // ─── Workbench / Layout ──────────────────────────────────────────────────────
   "workbench.editor.labelFormat": "short",
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.empty.hint": "hidden",
   "workbench.editor.untitled.hint": "hidden",
+  "workbench.startupEditor": "newUntitledFile",
+
+  // ─── Editor / Tipografia ─────────────────────────────────────────────────────
+  "editor.fontFamily": "Google Sans Code Proportional",
   "editor.fontSize": 14,
-  "editor.lineHeight": 26,
-  "editor.tabSize": 2,
-  "editor.fontFamily": "Lilex",
+  "editor.lineHeight": 32,
   "editor.fontLigatures": true,
-  "editor.scrollbar.vertical": "hidden",
-  "editor.renderLineHighlight": "gutter",
+
+  // ─── Editor / Comportamento Visual ──────────────────────────────────────────
   "editor.rulers": [110, 130],
-  "editor.parameterHints.enabled": false,
-  "editor.semanticHighlighting.enabled": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.renderLineHeightlight": "gutter",
+  "editor.renderLineHighlight": "gutter",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.bracketPairColorization.enabled": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.linkedEditing": true,
+
+  // ─── Editor / Indentação e Formatação ───────────────────────────────────────
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
+    "source.fixAll": "explicit",
   },
+  "editor.parameterHints.enabled": false,
+
+  // ─── Editor / Sugestões e IntelliSense ──────────────────────────────────────
+  "editor.inlineSuggest.enabled": true,
+
+  // ─── Formatadores por Linguagem ──────────────────────────────────────────────
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true,
+  },
+
+  // ─── Terminal Integrado ──────────────────────────────────────────────────────
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.fontLigatures.enabled": true,
+
+  // ─── Explorer ────────────────────────────────────────────────────────────────
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "javascript.updateImportsOnFileMove.enabled": "never",
+
+  // ─── Git ─────────────────────────────────────────────────────────────────────
+  "git.confirmSync": false,
+  "git.suggestSmartCommit": false,
+
+  // ─── GitLens ─────────────────────────────────────────────────────────────────
+  "gitlens.defaultDateFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+
+  // ─── TypeScript / JavaScript ─────────────────────────────────────────────────
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "codesnap.roundedCorners": true,
-  "codesnap.showLineNumbers": false,
-  "codesnap.containerPadding": "1em",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+
+  // ─── Emmet ───────────────────────────────────────────────────────────────────
   "emmet.syntaxProfiles": {
-    "javascript": "jsx"
+    "javascript": "jsx",
   },
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
   },
-  "code-runner.executorMap": {
-    "typescript": "ts-node"
+
+  // ─── Associações de Arquivos ─────────────────────────────────────────────────
+  "files.associations": {
+    "*.css": "tailwindcss",
   },
-  "extensions.ignoreRecommendations": true,
-  "diffEditor.ignoreTrimWhitespace": false,
+
+  // ─── Material Icon Theme ─────────────────────────────────────────────────────
   "material-icon-theme.activeIconPack": "nest",
   "material-icon-theme.folders.associations": {
     "domain": "core",
@@ -64,66 +118,56 @@
     "stores": "context",
     "sections": "components",
     "sls": "serverless",
-    "middy": "middleware"
+    "middy": "middleware",
   },
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
     "tsconfig.json": "tune",
-    ".lintstagedrc.json": "tune"
+    ".lintstagedrc.json": "tune",
   },
+
+  // ─── Symbols (ícones alternativos) ───────────────────────────────────────────
+  "symbols.hidesExplorerArrows": true,
   "symbols.files.associations": {
     "*.module.ts": "none",
     "*.controller.ts": "none",
-    "*.service.ts": "none"
+    "*.service.ts": "none",
   },
-  "gitlens.defaultDateFormat": null,
-  "gitlens.hovers.currentLine.over": "line",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "git.confirmSync": false,
-  "editor.inlineSuggest.enabled": true,
-  "security.workspace.trust.untrustedFiles": "open",
-  "editor.formatOnSave": true,
-  "symbols.hidesExplorerArrows": true,
-  "git.suggestSmartCommit": false,
-  "[css]": {
-    "editor.suggest.insertMode": "replace"
-  },
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma",
-    "editor.formatOnSave": true
-  },
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorBlinking": "phase",
-  "less.format.preserveNewLines": false,
-  "workbench.editor.empty.hint": "hidden",
-  "workbench.iconTheme": "Monokai Pro Icons",
-  "editor.minimap.enabled": false,
-  "editor.wordWrap": "on",
+
+  // ─── GitHub Copilot ──────────────────────────────────────────────────────────
   "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.enable": {
     "*": false,
     "plaintext": false,
     "markdown": false,
-    "scminput": false
+    "scminput": false,
   },
-  "chat.editor.lineHeight": 26,
-  "chat.editor.wordWrap": "on",
+
+  // ─── Claude Code ─────────────────────────────────────────────────────────────
   "claudeCode.selectedModel": "default",
-  "chat.editor.fontSize": 13,
-  "terminal.integrated.fontLigatures.enabled": true,
   "claudeCode.useTerminal": true,
   "claudeCode.useCtrlEnterToSend": true,
-  "terminal.integrated.fontSize": 12,
-  "terminal.integrated.lineHeight": 1.5,
   "claudeCode.preferredLocation": "panel",
-  "gitlens.ai.model": "vscode",
-  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-  "workbench.colorTheme": "Catppuccin Macchiato",
+
+  // ─── Chat (Copilot Chat / Claude Chat) ───────────────────────────────────────
+  "chat.editor.fontSize": 13,
+  "chat.editor.lineHeight": 26,
+  "chat.editor.wordWrap": "on",
+
+  // ─── Cursor (AI editor) ──────────────────────────────────────────────────────
   "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+
+  // ─── Extensões Diversas ──────────────────────────────────────────────────────
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "less.format.preserveNewLines": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "liveServer.settings.donotShowInfoMsg": true,
   "errorLens.fontStyleItalic": true,
-  "window.zoomLevel": 1,
-  "editor.linkedEditing": true
+  "codesnap.roundedCorners": true,
+  "codesnap.showLineNumbers": false,
+  "codesnap.containerPadding": "1em",
+  "code-runner.executorMap": {
+    "typescript": "ts-node",
+  },
 }
