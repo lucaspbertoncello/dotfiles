@@ -1,0 +1,19 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-g": "git_panel::Toggle",
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {},
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "shift-scrollwheelup": "pane::ActivatePreviousItem",
+      "shift-scrollwheeldown": "pane::ActivateNextItem",
+    },
+  },
+]
